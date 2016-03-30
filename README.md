@@ -12,6 +12,8 @@ This application was developed with the PHP programming language with the micro 
 
 ##Instructions
 
+Use the composer command to install all the dependencies used in the application.
+
 For some biblical verse format json enter the book abbreviation, chapter and verse number in the url number to get the desired passage.
 
 ###See the example:
