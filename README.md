@@ -1,4 +1,4 @@
-#Holy Bible Ruby Rest
+#Holy Bible PHP Rest
 
 ![alt text](http://cfdb.owmconsulting.netdna-cdn.com/wp-content/uploads/2013/01/Holy-Bible.jpg "Holy Bible")
 
