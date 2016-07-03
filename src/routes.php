@@ -11,10 +11,10 @@ $app->get('/book/{book}/chapter/{chapter}/verse/{verse}', function($request, $re
     $verse = $request->getAttribute('verse');
 
     $data = \BibleRest\Model\Bible::select('BookName AS book','Chapter as chapter', 'Verse as verse', 'VText as text')
-                ->where('BookAbr', $book)
-                ->where('Chapter', $chapter)
-                ->where('Verse', $verse)
-                ->get();
+        ->where('BookAbr', $book)
+        ->where('Chapter', $chapter)
+        ->where('Verse', $verse)
+        ->first();
     
-    echo $data['0'];
+    $response->withJson($data);
 });
