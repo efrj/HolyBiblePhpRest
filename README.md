@@ -8,7 +8,7 @@ The translation of the Holy Bible used in this application is the King James ver
 
 The application is very simple and easy to perform.
 
-This application was developed with the PHP programming language with the micro framework Slim and SQLite database.
+This application was developed with the PHP programming language with Slim Framework, Eloquent and SQLite database.
 
 ##Instructions
 
