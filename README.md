@@ -1,4 +1,4 @@
-#Holy Bible PHP Rest
+# Holy Bible PHP Rest
 
 ![alt text](http://www.wowfreestuff.co.uk/wp-content/uploads/2017/06/free-holy-bible.jpg "Holy Bible")
 
@@ -83,7 +83,7 @@ To get all the verses of a chapter, enter the abbreviation of the book and the c
 38. Zechariah - Zec
 39. Malachi - Mal
 
-###New Testament
+### New Testament
 
 1. Matthew - Mt
 2. Mark - Mr
