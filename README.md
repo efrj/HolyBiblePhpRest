@@ -2,11 +2,9 @@
 
 ![alt text](http://www.wowfreestuff.co.uk/wp-content/uploads/2017/06/free-holy-bible.jpg "Holy Bible")
 
-This application returns Bible verses in json format.
+Holy Bible PHP Rest is a simple and easy-to-execute REST application that returns Holy Bible verses in json format.
 
 The translation of the Holy Bible used in this application is the King James version.
-
-The application is very simple and easy to perform.
 
 This application was developed with the PHP programming language with Slim Framework, Eloquent and SQLite database.
 
@@ -14,7 +12,7 @@ This application was developed with the PHP programming language with Slim Frame
 
 ### Install
 
-Use the composer command to install all the dependencies used in the application.
+Use the composer command to install all the dependencies used in the application. The root directory of the application is the directory named "public".
 
 For some biblical verse format json enter the book abbreviation, chapter and verse number in the url number to get the desired passage.
 
