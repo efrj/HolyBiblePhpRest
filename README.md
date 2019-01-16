@@ -39,8 +39,8 @@ To get all the verses of a chapter, enter the abbreviation of the book and the c
 ---
 ## List of books with their respective abbreviations for you informed in the book the url parameter
 
-### Old Testament
-
+Old Testament | New Testament
+--- | ---
 1. Genesis - Ge
 2. Exodus - Ex
 3. Leviticus - Le
@@ -79,11 +79,7 @@ To get all the verses of a chapter, enter the abbreviation of the book and the c
 36. Zephaniah - Zep
 37. Haggai - Hag
 38. Zechariah - Zec
-39. Malachi - Mal
-
-### New Testament
-
-1. Matthew - Mt
+39. Malachi - Mal | 1. Matthew - Mt
 2. Mark - Mr
 3. Luke - Lu
 4. John - Joh
