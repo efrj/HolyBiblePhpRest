@@ -19,7 +19,11 @@ $app->get('/book/{book}/chapter/{chapter}', function($request, $response) {
                 ->where('Chapter', $chapter)
                 ->get();
     
-    return $response->withJson(['book'=>$data_chapter['book'], 'chapter'=>$data_chapter['chapter'], 'verses'=>$data_verses]);
+    return $response->withJson([
+        'book' => $data_chapter['book'],
+        'chapter' => $data_chapter['chapter'],
+        'verses' => $data_verses
+    ]);
 });
 
 $app->get('/book/{book}/chapter/{chapter}/verse/{verse}', function($request, $response) {
