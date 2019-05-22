@@ -9,7 +9,7 @@ $app->get('/book/{book}/chapter/{chapter}', function($request, $response) {
     $book = $request->getAttribute('book');
     $chapter = $request->getAttribute('chapter');
 
-    $data_chapter = \BibleRest\Model\Bible::select('BookName AS book','Chapter as chapter')
+    $data_chapter = \BibleRest\Model\Bible::select('BookName AS book', 'Chapter as chapter')
                 ->where('BookAbr', $book)
                 ->where('Chapter', $chapter)
                 ->first();
@@ -32,7 +32,7 @@ $app->get('/book/{book}/chapter/{chapter}/verse/{verse}', function($request, $re
     $chapter = $request->getAttribute('chapter');
     $verse = $request->getAttribute('verse');
 
-    $data = \BibleRest\Model\Bible::select('BookName AS book','Chapter as chapter', 'Verse as verse', 'VText as text')
+    $data = \BibleRest\Model\Bible::select('BookName AS book', 'Chapter as chapter', 'Verse as verse', 'VText as text')
                 ->where('BookAbr', $book)
                 ->where('Chapter', $chapter)
                 ->where('Verse', $verse)
