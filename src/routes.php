@@ -4,7 +4,7 @@ $app->get('/', function ($request, $response) {
     return $this->renderer->render($response, 'index.phtml');
 });
 
-$app->get('/book/{book}/chapter/{chapter}', function($request, $response) {
+$app->get('/books/{book}/chapters/{chapter}', function($request, $response) {
     
     $book = $request->getAttribute('book');
     $chapter = $request->getAttribute('chapter');
@@ -26,7 +26,7 @@ $app->get('/book/{book}/chapter/{chapter}', function($request, $response) {
     ]);
 });
 
-$app->get('/book/{book}/chapter/{chapter}/verse/{verse}', function($request, $response) {
+$app->get('/books/{book}/chapters/{chapter}/verses/{verse}', function($request, $response) {
     
     $book = $request->getAttribute('book');
     $chapter = $request->getAttribute('chapter');
