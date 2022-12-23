@@ -1,8 +1,8 @@
 {
-    "name": "BibleRest",
+    "name": "efrj/bible-rest",
     "description": "Rest application that returns verses of the Holy Bible.",
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.1",
         "slim/slim": "^3.1",
         "slim/php-view": "^2.0",
         "monolog/monolog": "^1.17",
