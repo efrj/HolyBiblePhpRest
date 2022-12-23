@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  php:
+    build: .
+    ports:
+     - "8000:80"
+     - "443:443"
+    volumes:
+     - ./:/var/www
+     - ./public:/var/www/html
+    container_name: php.holybible
